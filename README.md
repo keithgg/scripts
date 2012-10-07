@@ -20,10 +20,9 @@ When opened in Excel, press Alt+F8 and run the ShowWin macro.
 movemp3.py
 ----------
 Scans the list of audio files in a directory (source_dir) it's sub dirs
-and moves the files to dest_dir/artistname if dest_dir/artistname exists.
-If there are 10 or more files by artist in source_dir the dest_dir/artistname
+and moves the files to dest_dir/artistname if dest_dir/artistname exists
+for all files that have *artistname* as their artist. If there are 10 or more
+files by the same artist in source_dir then dest_dir/artistname
 is created.
-
-You need to have puddletag installed to run this (http://puddletag.sf.net).
 
 **Usage: python movemp3.py source_dir dest_dir**
